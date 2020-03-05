@@ -176,7 +176,32 @@ h1, h2, h3, h4, h5, h6, p {
 	border-radius: var(--corner-radius);
 	background: var(--color-bg-2);
 	color: var(--color-fg-1);
-}	
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dashed var(--color-fg-2);
+}
+
+.tooltip-text {
+	transition: opacity 0.2s;
+	position: absolute;
+	width: 256px;
+	background: var(--color-bg-1);
+	box-shadow: 0 0 1rem 0.25rem var(--color-bg-3);
+	border-radius: var(--corner-radius);
+	padding: 0.5rem;
+	opacity: 0;
+	color: var(--color-fg-1);
+	z-index: 1;
+	top: -0.5rem;
+	left: 110%;
+}
+  
+.tooltip:hover .tooltip-text, .tooltip-text:hover {
+	opacity: 1;
+}
 
 .news-date {
 	color: rgba(255,255,255, 0.5);
