@@ -1,85 +1,83 @@
 <!doctype html>
-
 <html>
-	<head>
-		<title>SITS - Home</title>
-		<link rel="stylesheet" href="styles/styles.css">
-		<link rel="stylesheet" href="styles/icons.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
-		<link rel="shortcut icon" type="image/ico" href="assets/favicon.ico">
-	</head>
-	<body>
-		<!-- Header -->
-		<header id="header">
-			<div class="logo-container">
-				<a href="home.html">
-					<img src="assets/sitsLogoNew.svg" alt="SITS Logo" class="logo">
-					<img src="assets/sitsLogoNewWhite.svg" alt="SITS Logo" class="logo-top">
-				</a>
-			</div>
-			<!-- Navbar -->
-			<div id="navbar">
-				<a href="home.html"><li>Home</li></a>
-				<a href="about.html"><li>About</li></a>
-				<a href="news.html"><li>News</li></a>
-				<a href="https://www.youtube.com/channel/UCQLUl0wXCxUO-og-ydTlwng" target="_blank"><li>Tutorials</li></a> 
-			</div>
-		</header>
-		<!-- Preview Video -->
-		<div id="preview-wrapper">
-			<div id="preview-overlay"></div>
-			<video id="preview-video" src="assets/testVideo.mp4" autoplay loop muted></video>
-		</div>
-		<!-- Dark BG -->
-		<div id="alt-background">
-		<!-- Main Body Content -->
-		<div id="main-body">
-			<div id="columns">
-				<div class="column">
-					<div class="body-text">
-						<p>Do you have any unused computers, components, or peripherals lying around your house? Got decommissioned PCs you are looking to get rid of? Consider donating to Student Information Technology Services by dropping off unused technology in Canton room CV 26. Student Information Technology Services (SITS) is an organization that takes old tech, makes it new again, and donates refurbished computers to other organizations or households that don't have access to such technology. Donations can be made between 6:30AM to 3:00PM. For more information, please contact us at <a href="mailto: studentinfotechservices@gmail.com">studentinfotechservices@gmail.com</a>, or visit our <a href="about.html">about us page</a>. No donation is too small.</p>
-					</div>
-					<div class="body-text">
-						<h1>What Do We Do?</h1>
-						<ul>
-							<li>We take in and refurbish old hardware.</li>
-							<li>We educate customers and students.</li>
-							<li>We donate our refurbished tech to local companies and foundations that need them.</li>
-			
-						</ul>
-					</div>
-				</div>
-				<div class="column">
-					<div class="body-text">
-						<h1>About Us</h1>
-						<p>Come take a look at what we do! Go and visit our <a href="about.html">about page.</a></p>
-					</div>
-					<div class="body-text">
-						<h1>Send us an Email</h1>
-						You can <a href="mailto: studentinfotechservices@gmail.com">use our email</a> to ask a question, write a comment, or to send us a donation.
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<!-- Footer -->
-		<footer id="footer">
-			<div class="center-rows">
-				<!-- Social Media Icons -->
-				<div id="icons">
-					<a href="https://www.youtube.com/channel/UCQLUl0wXCxUO-og-ydTlwng" target="_blank" class="icon-bg" id="youtube-bg"><i class="fonticon youtube"/></i></a>
-					<a href="https://instagram.com/student_info_tech" target="_blank" class="icon-bg" id="instagram-bg"><i class="fonticon instagram"/></i></a>
-				</div>
-				<div id="text-info">
-					<p>Email:<br><a href="mailto: studentinfotechservices@gmail.com">studentinfotechservices@gmail.com</a></p>
-				</div>
-			</div>
-		</footer>
-		</div>
-		<!-- "Computers Donated" Box -->
-		<div id="computers-donated">
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>SITS - Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" media="print" href="styles/print.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link rel="shortcut icon" type="image/ico" href="assets/favicon.ico">
+</head>
+<body>
+	<header class="header">
+	<div class="logo-container">
+		<a href="home.html">
+		  <img src="assets/sitsLogoNew.svg" alt="SITS Logo" class="logo">
+		  <img src="assets/sitsLogoNewWhite.svg" alt="SITS Logo" class="logo-top">
+		</a>
+	</div>
+	<div class="navbar">
+		<a href="home.html"><li>Home</li></a>
+		<a href="about.html"><li>About</li></a>
+		<a href="news.html"><li>News</li></a>
+		<a href="https://www.youtube.com/channel/UCQLUl0wXCxUO-og-ydTlwng" target="_blank"><li>Tutorials</li></a>
+		<a href="links.html"><li>Links</li></a>
+		<a href="productSpecs.html"><li>Product Specifications</li></a>
+	</div>
+	</header>
+
+	<div class="preview-wrapper">
+		<div class="preview-overlay"></div>
+		<video class="main-picture" src="assets/testVideo.mp4" autoplay loop muted></video>
+	</div>
+	
+	<div class="alt-background">
+	<div class="main-body">
+	    <div class="columns computers-donated">
 			<h4>Computers Donated:</h4>
-			<div class="donator-numbers"><span id="thousands-place">0</span><span id="hundreds-place">0</span><span id="tens-place">0</span><span id="ones-place">9</span></div>
+			<div class="donator-numbers"><span id="thousands-place"></span><span id="hundreds-place"></span><span id="tens-place"></span><span id="ones-place"></span></div>
 		</div>
-	</body>
+		<div class="columns">
+			<div class="column">
+				<div class="body-text">
+					<p>Do you have any unused computers, components, or peripherals lying around your house or just decommissioned PCs you are looking to get rid of? Consider donating to Student Information Technology Services by dropping off unused technology in Canton room CV 26. The Student Information Technology Services (SITS) is an organization that takes old tech, makes it new again, and donates refurbished computers to other organizations or households that don't have access to such technology. Donations can be made between 6:30AM to 3:00PM. For more information, please contact us at <a href="mailto: studentinfotechservices@gmail.com">studentinfotechservices@gmail.com</a>, or visit our <a href="about.html">about us page</a>. No donation is too small.</p>
+				</div>
+				<div class="body-text">
+					<h2>What Do We Do?</h2>
+					<ul>
+						<li>We take in and refurbish old hardware.</li>
+						<li>We educate customers and students.</li>
+						<li>We donate our refurbished tech to local companies and foundations that need them.</li>
+		
+					</ul>
+				</div>
+			</div>
+			<div class="column">
+				<div class="body-text">
+					<h2>About Us</h2>
+					<p>Come take a look at what we do! Go and visit our <a href="about.html">about page.</a></p>
+				</div>
+				<div class="body-text">
+					<h2>Send us an Email</h2>
+					You can <a href="mailto: studentinfotechservices@gmail.com">use our email</a> to ask a question, write a comment, or to send us a donation.
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="center-rows">
+			<div class="icons">
+				<a href="https://www.youtube.com/channel/UCQLUl0wXCxUO-og-ydTlwng" target="_blank" class="icon-bg" id="youtube-bg"><i class="fonticon youtube"/></i></a>
+				<a href="https://instagram.com/student_info_tech" target="_blank" class="icon-bg" id="instagram-bg"><i class="fonticon instagram"/></i></a>
+				<a href="https://snapchat.com/" class="icon-bg" id="snapchat-bg"><i class="fonticon snapchat"/></i></a>
+			</div>
+			<div class="text-info">
+				<p>Email:<br><a href="mailto: studentinfotechservices@gmail.com">studentinfotechservices@gmail.com</a></p>
+			</div>
+		</div>
+	</footer>
+	</div>
+</div>
+</body>
 </html>
