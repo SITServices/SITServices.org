@@ -1,0 +1,37 @@
+:root {
+	
+	--color-bg-1: white; /* Color under gradient */
+	--color-bg-2: white; /* Header/box color */
+	--color-bg-3: white; /* Fade color/alt background */
+	
+	--color-fg-1: black;
+	--color-fg-2: black;
+
+	--color-link-1: #6A9BD9; /* Link standard color */
+	--color-link-2: #99B7DE; /* Link hover color */
+	
+	--corner-radius: 6px;
+	
+	--header-height: 100px;
+}
+
+.header {
+	display: none;
+}
+
+footer {
+    display: none;
+}
+
+.preview-wrapper {
+	display: none;
+}
+
+.main-body {
+	width: 100%;
+	margin: 0;
+}
+
+.computers-donated {
+    display: none;
+}
