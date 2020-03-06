@@ -15,15 +15,15 @@
 	--header-height: 100px;
 }
 
-#header {
+.header {
 	display: none;
 }
 
-#preview-video-wrapper {
+.preview-video-wrapper {
 	display: none;
 }
 
-#main-body {
+.main-body {
 	width: 100%;
 	margin: 0;
 }
