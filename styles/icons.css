@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'iconoir-sits';
+  src:
+    url('../fonts/iconoir-sits.ttf?5ylloz') format('truetype'),
+    url('../fonts/iconoir-sits.woff?5ylloz') format('woff'),
+    url('../fonts/iconoir-sits.svg?5ylloz#iconoir-sits') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i.fonticon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconoir-sits' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.instagram:before {
+  content: "\e900";
+}
+.youtube:before {
+  content: "\e901";
+}

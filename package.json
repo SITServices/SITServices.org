@@ -1,0 +1,9 @@
+{
+    "name": "sits",
+    "version": "0.92.12",
+    "description": "The Metaverse virtual reality. The final outcome of all virtual worlds, augmented reality, and the Internet.",
+    "main": "dbLoader.js",
+    "devDependencies": {
+        "g-sheets-api": "^1.0.3"
+    }
+}
