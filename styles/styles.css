@@ -407,7 +407,7 @@ td {
 	display: block;
 	position: absolute;
 	width: 12%;
-	bottom: 40%;
+	bottom: 30%;
 	height: 2px;
 	background: var(--color-bg-2);
 }
@@ -451,6 +451,9 @@ td {
 	.computers-donated span {
 		padding: 0.6rem;
 	}
+	.donator-numbers > span::after {
+    	bottom: 23%;
+    }
 }
 
 @media screen and (max-width: 1000px)

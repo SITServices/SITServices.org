@@ -19,7 +19,11 @@
 	display: none;
 }
 
-.preview-video-wrapper {
+footer {
+    display: none;
+}
+
+.preview-wrapper {
 	display: none;
 }
 
@@ -28,6 +32,6 @@
 	margin: 0;
 }
 
-.accordion-panel {
-	display: block;
+.computers-donated {
+    display: none;
 }
