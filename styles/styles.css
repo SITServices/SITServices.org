@@ -181,24 +181,33 @@ h1, h2, h3, h4, h5, h6, p {
 .tooltip {
 	position: relative;
 	display: inline-block;
-	border-bottom: 1px dashed var(--color-fg-2);
-}
-
-.tooltip-text {
+	border-bottom: 1px dashed var(--color-fg-2); }
+.tooltip  .tooltip-text {
 	transition: opacity 0.2s;
 	position: absolute;
 	width: 256px;
-	background: var(--color-bg-1);
-	box-shadow: 0 0 1rem 0.25rem var(--color-bg-3);
+	background: #000000;
+	font-weight: 300;
+	font-size: 1rem;
 	border-radius: var(--corner-radius);
 	padding: 0.5rem;
 	opacity: 0;
 	color: var(--color-fg-1);
 	z-index: 1;
 	top: -0.5rem;
-	left: 110%;
+	left: 110%; }
+/* Tooltip arrow */
+.tooltip .tooltip-text::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -7px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent #000000 transparent transparent;
 }
-  
+
 .tooltip:hover .tooltip-text, .tooltip-text:hover {
 	opacity: 1;
 }
@@ -231,6 +240,12 @@ a {
 	color: var(--color-link-1); }
 a:hover {
 	color: var(--color-link-2);
+}
+
+/* Youtube Embed */
+.body-text > iframe#ytembed {
+	width: 100%;
+	height: 330px;
 }
 
 /* Images */
@@ -312,6 +327,7 @@ img.logo-top:hover {
 	color: var(--color-fg-1);
 	background: var(--color-bg-1);
 	border-radius: var(--corner-radius);
+	z-index: 999;
 }
 
 #computers-donated .donator-numbers > span {
@@ -331,6 +347,20 @@ img.logo-top:hover {
 	bottom: 40%;
 	height: 2px;
 	background: var(--color-bg-2);
+}
+
+/* Malik Easter Egg Authorized by Mr. O */
+img#secret {
+	position: absolute;
+	height: 100%;
+	opacity: 0;
+	right: 0%;
+}
+
+#computers-donated:hover img#secret {
+	transition: opacity 0.2s 3s, right 0.2s 2.9s;
+	right: 100%;
+	opacity: 1;
 }
 
 /*========*/
