@@ -131,18 +131,6 @@ p {
 	width: 100%;
 }
 
-.preview-video {
-	left: 50%;
-	transform: translate(-50%, 0);
-	position: absolute;
-}
-
-.preview-image {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-}
-
 /*==============*/
 /* Body Content */
 /*==============*/
@@ -156,7 +144,9 @@ p {
 	display: flex;
 }
 
-
+hr {
+    border-color: var(--color-bg-1);
+}
 
 .main-body h1 {
 	color: var(--color-fg-1);
@@ -236,7 +226,9 @@ a:hover {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 100%;}
+	max-width: 100%;
+	max-height: 100%;
+}
 
 figure {
     margin: 0;
@@ -244,7 +236,8 @@ figure {
 }
 
 .body-text figure {
-	display: flex; }
+	display: flex;
+}
 
 .body-text figure img {
 	transition: filter 0.2s;
