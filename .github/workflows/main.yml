@@ -9,8 +9,18 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
+  install-deps:
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+         node-version: '10.x'
+      - run: npm install
+  
   deploy:
+    #if built correctly, deploy
+    if: success()
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
